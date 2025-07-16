@@ -3,7 +3,16 @@
 
 This project is an interactive web application that provides a visual prototype of an advanced **Agentic AI Workflow using Retrieval-Augmented Generation (RAG)**. It demonstrates how a series of specialized AI "agents" can collaborate as a **conversational partner** to understand a user's query, dynamically retrieve information, evaluate findings, and generate comprehensive, source-backed responses.
 
-This application now supports **context-aware conversations**, allowing you to ask follow-up questions and get more tailored answers.
+This application now supports **context-aware conversations** and **Human-in-the-Loop (HITL)** capabilities, allowing you to ask follow-up questions, get more tailored answers, and actively improve response quality through interactive intervention.
+
+## 🆕 New Features
+
+- **🔄 Human-in-the-Loop System**: Interactive quality improvement when AI confidence is below 75%
+- **💾 Session Persistence**: Your work persists across browser refreshes using sessionStorage
+- **🔁 Iterative Enhancement**: Multiple rounds of improvement until quality standards are met
+- **🎯 Advanced Agent Workflow**: Enhanced 7-agent process with pause/resume capabilities
+
+👉 **[See detailed feature documentation](FEATURES.md)** for comprehensive information about new capabilities.
 
 ![Agentic RAG Workflow Screenshot](https://storage.googleapis.com/agentops-images/agentic-rag-screenshot.png)
 *(A screenshot of the application in action)*
