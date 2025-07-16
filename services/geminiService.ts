@@ -11,7 +11,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = `https://esm.sh/pdfjs-dist@4.5.136/buil
 const API_KEY = process.env.API_KEY;
 
 if (!API_KEY) {
-  throw new Error("API_KEY environment variable not set.");
+  throw new Error("API_KEY environment variable not set. Please set VITE_GEMINI_API_KEY in your Vercel environment variables.");
 }
 
 const ai = new GoogleGenAI({ apiKey: API_KEY });
