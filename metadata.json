@@ -1,0 +1,5 @@
+{
+  "name": "Agentic RAG Workflow",
+  "description": "A prototype visualizing an advanced, agent-driven Retrieval-Augmented Generation (RAG) workflow. This application demonstrates how AI agents can collaborate to refine queries, retrieve information dynamically, evaluate responses, and generate comprehensive answers.",
+  "requestFramePermissions": []
+}
