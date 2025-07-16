@@ -8,7 +8,7 @@
 2. Navigate to **Settings** → **Environment Variables**
 3. Add a new environment variable:
    - **Name**: `VITE_GEMINI_API_KEY`
-   - **Value**: Your actual Gemini API key (e.g., `AIzaSyCkRpRuHKbE1nMY5CQLhoiWP5UH0zRzLqM`)
+   - **Value**: Your actual Gemini API key (get it from [Google AI Studio](https://aistudio.google.com/app/apikey))
    - **Environment**: Select all (Production, Preview, Development)
 
 ### 2. Redeploy Your Application
@@ -40,10 +40,10 @@ Your environment variable should look like this in Vercel:
 
 ```
 Name: VITE_GEMINI_API_KEY
-Value: AIzaSyCkRpRuHKbE1nMY5CQLhoiWP5UH0zRzLqM
+Value: [YOUR_ACTUAL_API_KEY_HERE]
 ```
 
-Replace the value with your actual API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
+Replace `[YOUR_ACTUAL_API_KEY_HERE]` with your actual API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
 
 ## Verification
 
